@@ -1,0 +1,351 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: raleway;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body, html {
+    background-color: rgba(26, 27, 38);
+    box-sizing: border-box;
+}
+
+
+#nav {
+    background-color: none;
+    padding: 15px;;
+    border: 2px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to right bottom , 
+        #6e9583, 
+        rgba(0, 0, 0, 0)
+      )4;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+margin-bottom: 20px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+#nav ul a, p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1 {
+    color: white;
+font-family: 'Roboto Mono', monospace;
+font-size: 2rem;
+}
+
+.first {
+    position: absolute;
+    z-index: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.second {
+    z-index: 200;
+    height: 100%;
+}
+
+.second > .row {
+    height: inherit;
+}
+
+.first img {
+    position: relative;
+    object-fit: cover;
+    height: 95vh;
+    width: 100%;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#nav button {
+    color: white;
+    border: 1px solid #6e9583;
+}
+
+.middle {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    z-index: 1000;
+  
+}
+
+.leftside {
+    position: relative;
+    padding-left: 0px;
+    z-index: 10;
+}
+
+.btn-primary {
+    position: relative;
+    background-color: transparent;
+    font-family: 'Roboto Mono', monospace;
+    z-index: 100;
+    border-color: #6e9583;
+    margin-bottom: 20px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.active-site {
+    border-bottom: 1px solid #6e9583;
+}
+
+.handler {
+    opacity: 0.4;
+    padding-bottom: 10px;
+    /* border-bottom: 3px solid #6e9583 ; */
+    width: 50px;
+    text-align: end;
+    font-size: 1.5rem;
+    line-height: 80px;
+    font-family: 'Indie Flower', cursive;
+}
+
+ hr {
+     position: relative;
+     margin: 0px;
+     top: -30px;
+    width: 50%;
+    height: 2px !important;
+    color: #6e9583;
+    opacity: 0.5;
+}
+
+.start {
+    opacity: 1;
+}
+
+.handler:hover {
+    cursor: pointer;
+}
+
+.vertical-line {
+    position: absolute;
+    width: 150px;
+    height: 650px;
+    border-left: 2px solid rgba(110, 149, 131, 0.4);
+    bottom: 0pc;
+    left: 50px;
+
+}
+
+.vertical-line2 {
+    height: 550px;
+    border-left: 2px solid rgba(110, 149, 131, 0.4);
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    left: 190px;
+    z-index: 100;
+}
+
+.vertical-line3 {
+    height: 450px;
+    border-left: 2px solid rgba(110, 149, 131, 0.4);
+    position: absolute;
+    left: 400px;
+    bottom: 0;
+    width: 150px;
+    left: 330px;
+    z-index: 100;
+}
+
+.vertical-line4 {
+    height: 280px;
+    position: relative;
+    bottom: 0;
+}
+
+.vertical-lines p {
+    opacity: 0.2;
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    bottom: 10px;
+}
+
+.vertical-lines {
+    position: relative;
+}
+
+
+ .middle p {
+        font-size: 1.3rem;
+        padding-left: 50px;
+        padding-right: 50px;
+ }
+
+.vertical-row {
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.mainphoto {
+    background-image: url(imgs/kistdicht.jpg);
+    background-color: #6e9583;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+    z-index: -100;
+}
+
+#redder {
+    position: relative;
+    z-index: 1000;
+}
+
+main {
+    position: relative;
+    z-index: 1000;
+}
+
+#containerbottom .handler {
+    text-align: start;
+}
+
+.cross {
+    position: absolute;
+    bottom: 325px;
+    left: 100px;
+    z-index: 100;
+}
+
+.cross p{
+    font-size: 3rem;
+    opacity: 1;
+    color: red;
+}
+
+@media (max-width: 766px) {
+    .start-two {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 324px) {
+    h1{
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.4rem;
+    }
+
+    .first {
+        position: relative;
+    }
+
+    /* #nav .btn {
+        width: 20px;
+        height: 20px;
+        transform: translateX(25px);
+    } */
+
+    /* #nav svg {
+        transform: translate(-7px, -4.5px);
+    } */
+
+    .first img {
+        position: relative;
+        object-fit: cover;
+        width: 100%;
+        height: 100px;
+        opacity: 0.5;
+        z-index: 0;
+    }
+}
+
+@media (min-width: 400px)  {
+    .collapse {
+        display: block !important;
+    }
+    
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    /* #nav .btn {
+        display: none;
+        width: 20px;
+        height: 20px;
+    } */
+ }
+
+ @media (max-width: 826px) {
+    .middle p {
+        font-size: 1rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* #containerbottom {
+        transform: translate(10%, 50%)
+    } */
+ }
+
+ body, html { overflow-x: hidden}
