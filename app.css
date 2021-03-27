@@ -280,6 +280,18 @@ main {
     color: red;
 }
 
+.rightside {
+    text-align: end;
+}
+
+.rightside p {
+    margin-bottom: 30px;
+}
+
+.rightside p img {
+    width: 4em;
+}
+
 @media (max-width: 766px) {
     .start-two {
         opacity: 1;
